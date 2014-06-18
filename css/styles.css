@@ -7,40 +7,46 @@ html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
   font-family: 'FrenteH1-Regular';
   text-align: center;
-  margin-top: 2em;
 }
 
 p.logo {
   margin: 0;
+  margin-top: 0.2em;
   line-height: 1em;
 }
 
 @media only screen and (min-width: 1024px) {
   p.logo { font-size: 15em !important;}
+  img.icon { width: 64px; }
 }
 
 @media only screen and (max-width: 1023px) {
-  p.logo { font-size: 10em !important; }
+  p.logo { font-size: 9em !important; }
+  img.icon { width: 40px; }
 }
 
 @media only screen and (max-width: 640px) {
   p.logo { font-size: 6em !important; }
+  img.icon { width: 32px; }
 }
 
 @media only screen and (max-width: 480px) {
-  p.logo { font-size: 4em !important; }
+  p.logo { font-size: 4.8em !important; }
 }
 
 /* grid/layout debug */
-.pure-u-1-5 {
+div.pure-u-1-5 {
+/*
   border: 1px solid red;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
+*/
 }
 
-.pure-u-3-5 {
-  box-sizing: border-box;
+div.pure-u-3-5 {
+/*
+ box-sizing: border-box;
   border: 1px solid red;
+*/
 }
-/**/
