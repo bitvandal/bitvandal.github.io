@@ -1,0 +1,46 @@
+@font-face { 
+  font-family: 'FrenteH1-Regular';
+  src: url('/fonts/FrenteH1-Regular.otf');
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'FrenteH1-Regular';
+  text-align: center;
+  margin-top: 2em;
+}
+
+p.logo {
+  margin: 0;
+  line-height: 1em;
+}
+
+@media only screen and (min-width: 1024px) {
+  p.logo { font-size: 15em !important;}
+}
+
+@media only screen and (max-width: 1023px) {
+  p.logo { font-size: 10em !important; }
+}
+
+@media only screen and (max-width: 640px) {
+  p.logo { font-size: 6em !important; }
+}
+
+@media only screen and (max-width: 480px) {
+  p.logo { font-size: 4em !important; }
+}
+
+/* grid/layout debug */
+.pure-u-1-5 {
+  border: 1px solid red;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+.pure-u-3-5 {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+/**/
