@@ -11,7 +11,8 @@ html, button, input, select, textarea,
   background-color: #CCCC00;
 }
 
-.pure-menu a { color: inherit; } 
+/* removes blue border when tapping an anchor */
+* { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 .pure-menu a:link { color: white; }
 .pure-menu a:visited { color: white; }
 .pure-menu a:hover { color: black; }
