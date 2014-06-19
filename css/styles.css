@@ -28,7 +28,7 @@ p.logo {
 }
 
 @media only screen and (max-width: 1399px) {
-  p.logo { font-size: 17em !important;}
+  p.logo { font-size: 16.8em !important;}
   a.menu { font-size: 3em !important; }
 }
 
