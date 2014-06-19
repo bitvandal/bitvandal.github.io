@@ -10,13 +10,8 @@ html, button, input, select, textarea,
   background-color: #CCCC00;
 }
 
-a.menu {
-  color: white;
-}
-
-a.menu:hover {
-  color: black;
-}
+a.menu { color: white; }
+a.menu:hover {color: black; }
 
 p.logo {
   margin: 0.2em 0 0 0;
@@ -33,12 +28,12 @@ p.logo {
 }
 
 @media only screen and (max-width: 1399px) {
-  p.logo { font-size: 18em !important;}
+  p.logo { font-size: 17em !important;}
   a.menu { font-size: 3em !important; }
 }
 
 @media only screen and (max-width: 1024px) {
-  p.logo { font-size: 11.5em !important; }
+  p.logo { font-size: 10.5em !important; }
   a.menu { font-size: 2.75em !important; }
 }
 
