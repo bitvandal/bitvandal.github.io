@@ -1,6 +1,6 @@
 @font-face { 
   font-family: 'FrenteH1-Regular';
-  src: url('/fonts/FrenteH1-Regular.otf');
+  src: url('./fonts/FrenteH1-Regular.otf');
 }
 
 html, button, input, select, textarea,
