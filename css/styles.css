@@ -11,6 +11,7 @@ html, button, input, select, textarea,
   background-color: #CCCC00;
 }
 
+.pure-menu a { color: inherit; } 
 .pure-menu a:link { color: white; }
 .pure-menu a:visited { color: white; }
 .pure-menu a:hover { color: black; }
