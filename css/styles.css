@@ -16,37 +16,33 @@ p.logo {
 }
 
 @media only screen and (min-width: 1024px) {
-  p.logo { font-size: 15em !important;}
-  img.icon { width: 64px; }
+  p.logo { font-size: 18em !important;}
 }
 
 @media only screen and (max-width: 1023px) {
-  p.logo { font-size: 9em !important; }
-  img.icon { width: 40px; }
+  p.logo { font-size: 11.5em !important; }
 }
 
 @media only screen and (max-width: 640px) {
-  p.logo { font-size: 6em !important; }
-  img.icon { width: 32px; }
+  p.logo { font-size: 7.2em !important; }
 }
 
-@media only screen and (max-width: 480px) {
-  p.logo { font-size: 4.8em !important; }
+.portrait {
+  margin: 4px;
 }
 
-/* grid/layout debug */
-div.pure-u-1-5 {
-/*
+/* grid/layout debug * /
+div.pure-u-2-24 {
   border: 1px solid red;
   box-sizing:border-box;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
-*/
 }
 
-div.pure-u-3-5 {
-/*
- box-sizing: border-box;
+div.pure-u-20-24 {
+  box-sizing: border-box;
   border: 1px solid red;
-*/
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
 }
+/**/
