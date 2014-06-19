@@ -7,11 +7,20 @@ html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
   font-family: 'FrenteH1-Regular';
   text-align: center;
+  background-color: #CCCC00;
+}
+
+a.menu {
+  color: white;
+  font-size: 2em;
+}
+
+a.menu:hover {
+  color: black;
 }
 
 p.logo {
-  margin: 0;
-  margin-top: 0.2em;
+  margin: 0.2em 0 0 0;
   line-height: 1em;
 }
 
@@ -27,21 +36,19 @@ p.logo {
   p.logo { font-size: 7.2em !important; }
 }
 
-.portrait {
+@media only screen and (max-width: 480px) {
+  p.logo { font-size: 4.8em !important; }
+  .portrait { display: none; }
+}
+
+.pure-img {
   margin: 4px;
 }
 
-/* grid/layout debug * /
-div.pure-u-2-24 {
+/* grid/layout debug */
+.pure-u-2-24, .pure-u-20-24 {
   border: 1px solid red;
   box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-}
-
-div.pure-u-20-24 {
-  box-sizing: border-box;
-  border: 1px solid red;
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
 }
